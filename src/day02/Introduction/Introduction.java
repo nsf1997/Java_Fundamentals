@@ -25,6 +25,8 @@
 		操作方法(Method):定义对象具有的处理行为。
 
 */
+package day02.Introduction;
+
 class Person{//定义一个类
 	String name;
 	int age;//定义两个属性
@@ -50,7 +52,7 @@ class Person{//定义一个类
  
 
 */
-public class introduction{
+public class Introduction{
 	public static void main(String args[]){
 		Person per = new Person();//声明并实例化对象
 		per.name = "Sam";
