@@ -5,18 +5,7 @@ package day02.Constructor;
  ·构造方法不允许设置任何的返回值类型，即没有返回值定义
  ·构造方法是在使用关键字new实例化对象时候自动调用
  */
-class Message{
-    private String title;
-    public Message(String t){
-        title = t;
-    }
-    public void setTitle(String t){
-        title = t;
-    }
-    public String getTitle(){
-        return title;
-    }
-}
+
 class Person{
     private String name;
     private int age;
@@ -34,6 +23,7 @@ public class Constructor{
     public static void main(String args[]){
         Person per = new Person("Sam",23);
         per.tell();
+        //new Person("Sam",23).tell()
     }
 }
 /**
