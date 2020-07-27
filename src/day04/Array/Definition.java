@@ -19,6 +19,8 @@ package day04.Array;
  *          -完整格式： 数据类型 数组名称[] = new 数据类型 []{数据1，数据2，数据3,。。。};
  *
  * 数组通过脚标进行每一个元素的访问，脚标从0开始定义，范围到数组名称.length-1
+ *
+ * 必须提供有实例化对象才可以使用下标的形式进行数组的操作，否则会提示“NoPointerException”;
  */
 public class Definition {
     public static void main(String[] args) {
